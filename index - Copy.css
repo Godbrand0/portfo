@@ -93,9 +93,23 @@ a{
 }
 
 .skill-img{
-    width: 200px;
-    height: 200px;
-    overflow: none;
+    width: 100%;
+}
+.skills-section{
+    width: 100%;
+    padding: 80px;
+    border: 3px solid white;
+    transition: all 0.5s;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-column-gap: 200px;
+    grid-row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
 }
 .project-section{
     width: 100%;
@@ -367,6 +381,7 @@ footer{
         margin-top: 50px;
         transition: 0.5s;
         cursor: pointer;
+        
     }
 
     .link-group{
@@ -383,6 +398,7 @@ footer{
         justify-content: space-evenly;
         align-items: center;
         opacity: 1;
+        background: transparent;
     }
     .bttn{
         margin-top: 10px;
@@ -424,5 +440,14 @@ footer{
        
         margin-top: 30px;
     }
- 
+    
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        grid-column-gap: 70px;
+        grid-row-gap: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
 }
