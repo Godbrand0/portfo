@@ -40,7 +40,7 @@ function darkmode() {
     btn.style.color = 'white';
     img.style.opacity = '0.2';
     about.style.opacity = '0.6';
-   
+    nav.style.background = 'black';
     links.forEach( link=> {
         link.style.opacity = '0.5';
       link.style.color = 'white';
@@ -78,7 +78,7 @@ function lightmode() {
     btn.style.color = 'black';
     img.style.opacity = '1';
     about.style.opacity = '1';
-   
+    nav.style.background = 'white';
     links.forEach( link=> {
         link.style.opacity = '1';
       link.style.color = 'black';

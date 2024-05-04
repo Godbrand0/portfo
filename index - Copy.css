@@ -130,7 +130,7 @@ a{
 }
 .project-container{
     display: grid;
-    grid-template-columns: repeat(6, 150px);
+    grid-template-columns: repeat(4, 150px);
     grid-column-gap: 70px;
     grid-row-gap: 60px;
     justify-content: center;
@@ -145,6 +145,10 @@ a{
     overflow: auto;
     border-radius: 20px;
     cursor: pointer;
+    transition: all 0.3s;
+}
+.project-card:hover{
+    transform: translateY(-10px);
 }
 
 .project-img{

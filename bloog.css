@@ -156,7 +156,7 @@ h2{
     transform: translate(-50%,-13%);
 }
 
-.material-symbols-sharp{
+.text-4 span{
     float: right;
     cursor: pointer;
     padding: 5px 5px;
@@ -179,15 +179,54 @@ h2{
     }
 }
 
-@media screen and (max-width:390px){
- 
-}
+
 
 
 /*responsive tablet*/
-@media screen and (max-width:1024px){
+@media screen and (max-width:375px){
     .modal_wrapper .success_wrap .text-4{     
-        margin-top: -50%;
+        padding-top: 100px;
+        
     }
 }
+
+
+@media screen and (max-width:700px){
+    .modal_wrapper .success_wrap .text-4{     
+        margin-top: -45%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .modal_wrapper .success_wrap .text-4{     
+        margin-top: -55%;
+    }
+}
+@media screen and (max-width:600px){
+    .modal_wrapper .success_wrap .text-4{     
+        margin-top: -15%;
+    }
+}
+@media screen and (max-width:350px){
+    .modal_wrapper .success_wrap .text-4{     
+        margin-top: -29%;
+    }
+}
+@media screen and (max-width:415px){
+    .modal_wrapper .success_wrap .text-4{     
+        margin-top: -35%;
+    }
+}
+@media screen and (max-width:430px){
+    .modal_wrapper .success_wrap .text-4{     
+        margin-top: -35%;
+    }
+}
+
+
+
+
+
+
+
 
